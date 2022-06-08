@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="veiwport" content="width=device-width",
+      initial-scaled=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>On va où?</title>
+    <link rel="stylesheet" href="css/main.css" />    
+    <link rel="icon" href="Resources/Assets/onvaou.png"> 
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a class="active" href="index.html">Accueil</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="explications.html">Explications</a>
+    <a href="contact.html">Contact</a>
+    <a class="right" href="login.html">Connexion</a>
+    <a class="right" href="register.html">S'inscrire</a> 
+</div>
+
+<p>On va où?</p>
+    <div id='map'></div>
+      <script src="random_marker.js"></script>
+
+  <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABbGjVg0zThVp8nk2TCFTbfeMp39jP8g0&callback=initMap&v=weekly">
+  </script>
+
+<br>
+
+<div class = aside>
+  <div style="text-align: left;">
+    <class = form>
+      <fieldset>
+        <legend>Options</legend>
+        <br>
+          <input type="radio" id="france" name="france">
+          <label for="france">France</label><br>
+        <br>
+          <input type="radio" id="europe" name="europe">
+          <label for="europe">Europe</label><br>
+        <br>
+          <input type="radio" id="frontaliers" name="frontaliers">
+          <label for="frontaliers">Frontaliers France</label><br>
+        <br>
+        <br>
+      </fieldset>
+    </form>
+  </div>
+  <br>
+
+<div>
+  <button type="button" id="btn">
+    On va là
+  </button>
+  <br><br>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+// Variables
+$color-dark: #181818;
+$color-lightdark: #333;
+$color-green: #04AA6D;
+$color-lightgreen: lightgreen;
+$color-black: black;
+$color-white: #E4D9F4;
+
+//Imports
+@import 'base';
+@import 'header';
+@import 'text';
+@import 'script';
+
+button {
+    :hover {
+        color: $color-black;
+        background-color: $color-lightgreen;
+    }
+    text-align: center;
+    margin: 7px 15px;
+    background-color: $color-green;
+    color: $color-white;
+    font-family: system-ui;
+    font-size: 2em;
+    letter-spacing: 2px;
+    word-spacing: 2px;  
+    margin: 5%
+}
+
+fieldset {
+  margin: 50, 50, 0, 0%;
+}
+
+.form {
+  float: right;
+  margin-right: 54%;
+}
+
+.aside {
+  background-color: $color-lightdark;
+  margin-left: 1333px;
+  margin-right: 8px;
+}
+
+li {
+    text-shadow: -1px -1px 1px $color-black;
+    color: $color-white;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+div { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul { 
+  display: inline-block; 
+}
+
+
+.container {  
+  background-color: $color-lightdark;
+  padding: 5px;   
+  margin-right: 13%;
+  margin-left: 13%;
+  
+}   
+
+.left-register {
+  display:inline-block;
+}
+

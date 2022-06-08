@@ -1,0 +1,143 @@
+body {
+  background-color: #181818;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-size: 2em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.topnav > a {
+  float: left;
+  color: #E4D9F4;
+  padding: 17px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav > a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+.topnav > a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+.topnav > a.right {
+  background-color: #04AA6D;
+  float: right;
+}
+
+p {
+  text-shadow: -1px -1px 1px black;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-size: 2.8em;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+h1 {
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+legend {
+  text-shadow: -1px -1px 1px black;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-weight: lighter;
+  font-size: 2.4em;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+label {
+  text-shadow: -1px -1px 1px black;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-weight: lighter;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#map {
+  margin: 1%;
+  height: 650px;
+  width: 69%;
+  text-align: right;
+  float: left;
+}
+
+button {
+  text-align: center;
+  margin: 7px 15px;
+  background-color: #04AA6D;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-size: 2em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin: 5%;
+}
+button:hover {
+  color: black;
+  background-color: lightgreen;
+}
+
+fieldset {
+  margin: 50, 50, 0, 0%;
+}
+
+.form {
+  float: right;
+  margin-right: 54%;
+}
+
+.aside {
+  background-color: #333;
+  margin-left: 1333px;
+  margin-right: 8px;
+}
+
+li {
+  text-shadow: -1px -1px 1px black;
+  color: #E4D9F4;
+  font-family: system-ui;
+  font-weight: lighter;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+div {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+}
+
+.container {
+  background-color: #333;
+  text-align: center;
+  padding: 5px;
+  margin-right: 13%;
+  margin-left: 13%;
+}
+
+/*# sourceMappingURL=main.css.map */

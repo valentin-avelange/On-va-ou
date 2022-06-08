@@ -1,0 +1,28 @@
+.topnav {
+    > a {
+        float: left;
+        color: $color-white;
+        padding: 17px 18px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    > a:hover {
+        background-color: $color-lightgreen;
+        color: $color-black;
+    }
+    > a.active {
+        background-color: $color-green;
+        color: $color-black; 
+    }
+    > a.right {
+        background-color: $color-green;
+        float: right;
+    }
+  background-color: $color-lightdark;
+  overflow: hidden;
+    color: $color-white;
+    font-family: system-ui;
+    font-size: 2em;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
